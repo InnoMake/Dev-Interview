@@ -17,7 +17,7 @@
 ## API 说明
 1. 如无特殊说明，所有请求都使用 `POST`，数据格式为 `JSON`
 2. 所有请求都需包含 `token`
-3. 所有请求，只有返回结果中 `code` 为 `0` 时，表示请求成功，其余均表示请求失败，错误信息请参考 [错误信息说明](#error_detail)
+3. 所有请求，只有返回结果中 `code` 为 `0` 时，表示请求成功，其余均表示请求失败，错误信息请参考： [错误信息说明](#error_detail)
 
 ## <a name="api-list">API 列表</a>
 1. [获取所有事项列表](#list)
@@ -171,3 +171,9 @@
 ```
 
 ## <a name="error_detail">错误信息说明</a>
+
+
+## Todo
+1. [https://interview.zhixingche.com/token](https://interview.zhixingche.com/token) 获取 token 的 web 页面
+2. API 开发
+3. 整理错误信息

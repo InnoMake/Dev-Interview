@@ -19,7 +19,7 @@
 2. 所有请求都需包含 `token`
 3. 所有请求，只有返回结果中 `code` 为 `0` 时，表示请求成功，其余均表示请求失败，错误信息请参考 [错误信息说明](#error_detail)
 
-## <span id="api-list">API 列表</span>
+## <a name="api-list">API 列表</a>
 1. [获取所有事项列表](#list)
 2. [新建事项](#create_item)
 3. [修改事项](#update_item)
@@ -28,7 +28,7 @@
 6. [撤销完成事项](#revert_item)
 
 ## API 详细信息
-### <span id="list">1. 获取所有事项列表</span>
+### <a name="list">1. 获取所有事项列表</a>
 
 **Request**: `/list`
 
@@ -57,7 +57,7 @@
 }
 ```
 
-### <span id="create_item">2. 新建事项</span>
+### <a name="create_item">2. 新建事项</a>
 
 **Request**: `/item/create`
 
@@ -80,7 +80,7 @@
 }
 ```
 
-### <span id="update_item">3. 修改事项</span>
+### <a name="update_item">3. 修改事项</a>
 
 **Request**: `/item/update`
 
@@ -104,7 +104,7 @@
 }
 ```
 
-### <span id="delete_item">4. 删除事项</span>
+### <a name="delete_item">4. 删除事项</a>
 
 **Request**: `/item/delete`
 
@@ -126,7 +126,7 @@
 }
 ```
 
-### <span id="finish_item">5. 完成事项</span>
+### <a name="finish_item">5. 完成事项</a>
 
 **Request**: `/item/finish`
 
@@ -148,7 +148,7 @@
 }
 ```
 
-### <span id="revert_item">6. 撤销完成事项</span>
+### <a name="revert_item">6. 撤销完成事项</a>
 
 **Request**: `/item/revert`
 
@@ -170,4 +170,4 @@
 }
 ```
 
-## <span id="error_detail">错误信息说明</span>
+## <a name="error_detail">错误信息说明</a>

@@ -4,7 +4,7 @@
 在你擅长的平台完成一个 Todo List 项目，平台包括但不局限于：Web, iOS, Android。
 
 ## 步骤
-1. 前往 [https://interview.zhixingche.com/token](https://interview.zhixingche.com/token) 输入邮箱获取 `token`
+1. 前往 [https://interview.zhixingche.com/api/100/token](https://interview.zhixingche.com/api/100/token) 输入邮箱获取 `token`
 2. 根据 [API](#api-list) 开发项目
 3. 项目完成后请将项目打包发送邮件至： [shendonghua@yunzao.cn](mailto:shendonghua@yunzao.cn?subject="YunMake-Dev-Interview")
 
@@ -15,6 +15,7 @@
 4. 如有问题请发送邮件至：[shendonghua@yunzao.cn](mailto:shendonghua@yunzao.cn?subject="YunMake-Dev-Interview 问题")
 
 ## API 说明
+1. API 请求的 Base URL 为 `https://interview.zhixingche.com/api/100/`
 1. 如无特殊说明，所有请求都使用 `POST`，数据格式为 `JSON`
 2. 所有请求都需包含 `token`
 3. 所有请求，只有返回结果中 `code` 为 `0` 时，表示请求成功，其余均表示请求失败，错误信息请参考： [错误信息说明](#error_detail)
@@ -30,7 +31,7 @@
 ## API 详细信息
 ### <a name="list">1. 获取所有事项列表</a>
 
-**Request**: `/list`
+**Request**: `/item/list`
 
 ```
 {
@@ -174,6 +175,6 @@
 
 
 ## Todo
-1. [https://interview.zhixingche.com/token](https://interview.zhixingche.com/token) 获取 token 的 web 页面
+1. [https://interview.zhixingche.com/api/100/token](https://interview.zhixingche.com/api/100/token) 获取 token 的 web 页面
 2. API 开发
 3. 整理错误信息

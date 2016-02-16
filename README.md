@@ -37,7 +37,7 @@
 
 ```
 {
-	token: "token" 				// String
+	token: "token" 					// String
 }
 ```
 
@@ -49,12 +49,12 @@
 	data: [
 		{
 			id: 1, 					// Number
-			user_id: 1,			// Number
+			user_id: 1,				// Number
 			title: "title", 		// String
-			content: "content",	// String
-			status: 0, 			// Enum: 0(default), 1(finished)
+			content: "content",		// String
+			status: 0, 				// Enum: 0(default), 1(finished)
 			create_time: 0, 		// Timestamp
-			update_time: 0 		// Timestamp
+			update_time: 0 			// Timestamp
 		},
 		...
 	]
@@ -69,7 +69,7 @@
 {
 	token: "token", 				// String
 	title: "title", 				// String
-	content: "content"			// String
+	content: "content"				// String
 }
 ```
 
@@ -93,7 +93,7 @@
 	token: "token", 				// String
 	id: 1, 							// Number
 	title: "title", 				// String
-	content: "content"			// String
+	content: "content"				// String
 }
 ```
 
@@ -114,7 +114,7 @@
 
 ```
 {
-	token: "token",				// String
+	token: "token",					// String
 	id: 1 							// Number
 }
 ```
@@ -136,7 +136,7 @@
 
 ```
 {
-	token: "token",				// String
+	token: "token",					// String
 	id: 1							// Number
 }
 ```
@@ -158,7 +158,7 @@
 
 ```
 {
-	token: "token",				// String
+	token: "token",					// String
 	id: 1							// Number
 }
 ```

@@ -18,9 +18,10 @@
 
 ## API 说明
 1. API 请求的 Base URL 为 `http://interview.yunzao.cn/api/100/`
-2. 如无特殊说明，所有请求都使用 `POST`，数据格式为 `JSON`
+2. 如无特殊说明，所有请求都使用 `POST`，请求支持的 `Content-Type` 包括 : `application/x-www-form-urlencoded`；返回数据格式为 `JSON`
 3. 所有请求都需包含 `token`
 4. 所有请求，只有返回结果中 `code` 为 `0` 时，表示请求成功，其余均表示请求失败，错误信息请参考： [错误信息说明](#error_detail)
+5. API 调试地址：[http://interview.yunzao.cn/test/api-client](http://interview.yunzao.cn/test/api-client)，你也可以用第三方工具调试，如 [Postman](https://www.getpostman.com/)
 
 ## <a name="api-list">API 列表</a>
 1. [获取所有事项列表](#list)

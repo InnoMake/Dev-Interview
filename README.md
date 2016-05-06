@@ -1,4 +1,4 @@
-# YunMake-Dev-Interview
+# Dev-Interview
 
 ## 介绍
 为了测试你的编码能力以及了解你的编码习惯，我们希望你在你擅长的平台完成一个简单的 To-do 项目，平台包括但不局限于：Web, iOS, Android。
@@ -6,14 +6,14 @@
 ## 步骤
 1. 前往 [http://interview.yunzao.cn/token](http://interview.yunzao.cn/token) 输入邮箱获取 `token`
 2. 根据 [API](#api-list) 开发项目
-3. 项目完成后请将项目打包或 GitHub 地址发送邮件至： [shendonghua@yunzao.cn](mailto:shendonghua@yunzao.cn?subject="YunMake-Dev-Interview") 
+3. 项目完成后请将项目打包或 GitHub 地址发送邮件至： [dev@yunzao.cn](mailto:dev@yunzao.cn?subject=InnoMake Dev-Interview Project) 
 
 ## 说明
 1. 请尽量保持界面美观友好
 2. 不限制使用任何第三方库
 3. 请创建一个 Readme 文件，需包含项目介绍，所属平台，使用的技术，使用方法，最好可以介绍一下你的项目亮点
 4. 你有5个工作日来完成该项目（自收到邮件开始计时）
-5. 如有问题请发送邮件至：[shendonghua@yunzao.cn](mailto:shendonghua@yunzao.cn?subject="YunMake-Dev-Interview 问题")
+5. 如有问题请发送邮件至： [dev@yunzao.cn](mailto:dev@yunzao.cn?subject=InnoMake Dev-Interview problem)
 6. Have fun!
 
 ## API 说明
